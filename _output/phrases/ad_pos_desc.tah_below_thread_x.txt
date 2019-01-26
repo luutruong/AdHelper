@@ -1,0 +1,3 @@
+Available arguments:<br>
+- <b>$index</b>: The thread position. Begin from 1<br>
+- <b>$forum</b>: The forum contains thread

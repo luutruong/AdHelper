@@ -1,0 +1,13 @@
+{
+    "arguments": [
+        {
+            "argument": "index",
+            "required": true
+        },
+        {
+            "argument": "resource",
+            "required": true
+        }
+    ],
+    "active": true
+}

@@ -1,0 +1,13 @@
+{
+    "arguments": [
+        {
+            "argument": "index",
+            "required": true
+        },
+        {
+            "argument": "forum",
+            "required": true
+        }
+    ],
+    "active": true
+}

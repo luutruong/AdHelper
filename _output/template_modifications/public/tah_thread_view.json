@@ -1,0 +1,9 @@
+{
+    "template": "thread_view",
+    "description": "Render ad position below post X",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "#<xf:foreach loop=\"\\$posts\" value=\"\\$post\"[^>]*>(.+)</xf:foreach>#s",
+    "replace": "<xf:foreach loop=\"$posts\" value=\"$post\" i=\"{$i}\">\n\t$1\n\t<xf:ad position=\"tah_below_post_x\" \n\t\t   arg-index=\"{$i}\"\n\t\t   arg-thread=\"{$thread}\"/>\n</xf:foreach>"
+}

@@ -1,0 +1,9 @@
+{
+    "template": "google_analytics",
+    "description": "Load ad js",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:if is=\"$xf.options.googleAnalyticsWebPropertyId\">",
+    "replace": "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\n$0"
+}

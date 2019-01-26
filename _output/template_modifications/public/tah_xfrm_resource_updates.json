@@ -1,0 +1,9 @@
+{
+    "template": "xfrm_resource_updates",
+    "description": "Render ad below resource update X",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "#<xf:foreach loop=\"\\$updates\" value=\"\\$update\">(.+)</xf:foreach>#s",
+    "replace": "<xf:foreach loop=\"$updates\" value=\"$update\" i=\"{$i}\">\n\t$1\n\t<xf:ad position=\"tah_below_resource_update_x\"\n\t\t   arg-index=\"{$i}\"\n\t\t   arg-resource=\"{$resource}\"/>\n</xf:foreach>"
+}

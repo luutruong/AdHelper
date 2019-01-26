@@ -1,0 +1,9 @@
+{
+    "template": "forum_view",
+    "description": "Render ad position below thread X",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "#<xf:foreach loop=\"\\$threads\" value=\"\\$thread\">(.+)</xf:foreach>#s",
+    "replace": "<xf:foreach loop=\"$threads\" value=\"$thread\" i=\"{$i}\">\n\t$2\n\t<xf:ad position=\"tah_below_thread_x\"\n\t\t   arg-index=\"{$i}\"\n\t\t   arg-forum=\"{$forum}\"/>\n</xf:foreach>"
+}

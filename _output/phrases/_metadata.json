@@ -1,0 +1,50 @@
+{
+    "ad_pos.tah_below_post_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "6a47ed5ffc88e2f547c0b0b03be71344"
+    },
+    "ad_pos.tah_below_resource_update_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "89458c1c1295f83a2e49cbb1e2b6d746"
+    },
+    "ad_pos.tah_below_resource_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "023ebdcd2df9d743b92e9bbd5afa8de4"
+    },
+    "ad_pos.tah_below_thread_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "a0b2d7ebfeb7955309fa66d916486614"
+    },
+    "ad_pos_desc.tah_below_post_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "1110db211f89bbb0554b6e38731d4019"
+    },
+    "ad_pos_desc.tah_below_resource_update_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "5fb4edbb45ca257a8d440fb5300f46bd"
+    },
+    "ad_pos_desc.tah_below_resource_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "97f99c01885f7d3aa0e86bd65efc32c4"
+    },
+    "ad_pos_desc.tah_below_thread_x.txt": {
+        "global_cache": false,
+        "version_id": 1000000,
+        "version_string": "1.0.0",
+        "hash": "11f5cc720e48402032c88365205c40d3"
+    }
+}
