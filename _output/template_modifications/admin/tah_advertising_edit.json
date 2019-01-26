@@ -1,0 +1,9 @@
+{
+    "template": "advertising_edit",
+    "description": "Add our columns",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<xf:option name=\"active\" value=\"1\" selected=\"$ad.active\">{{ phrase('advertisement_is_active') }}</xf:option>",
+    "replace": "$0\n<xf:option name=\"tah_is_active_mobile\" value=\"1\" \n\t\t   selected=\"$ad.tah_is_active_mobile\">{{ phrase('tah_advertisement_is_active_mobile') }}</xf:option>"
+}

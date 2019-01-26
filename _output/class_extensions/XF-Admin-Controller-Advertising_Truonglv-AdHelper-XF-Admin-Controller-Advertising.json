@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Admin\\Controller\\Advertising",
+    "to_class": "Truonglv\\AdHelper\\XF\\Admin\\Controller\\Advertising",
+    "execute_order": 10,
+    "active": true
+}

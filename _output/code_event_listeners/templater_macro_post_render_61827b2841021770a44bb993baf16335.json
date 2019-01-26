@@ -1,0 +1,9 @@
+{
+    "event_id": "templater_macro_post_render",
+    "execute_order": 10,
+    "callback_class": "Truonglv\\AdHelper\\Listener",
+    "callback_method": "templaterMacroPostRender",
+    "active": true,
+    "hint": "",
+    "description": ""
+}

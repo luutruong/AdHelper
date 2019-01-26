@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Entity\\Advertising",
+    "to_class": "Truonglv\\AdHelper\\XF\\Entity\\Advertising",
+    "execute_order": 10,
+    "active": true
+}

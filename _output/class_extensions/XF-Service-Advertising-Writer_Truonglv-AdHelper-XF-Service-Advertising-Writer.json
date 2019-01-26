@@ -1,0 +1,6 @@
+{
+    "from_class": "XF\\Service\\Advertising\\Writer",
+    "to_class": "Truonglv\\AdHelper\\XF\\Service\\Advertising\\Writer",
+    "execute_order": 10,
+    "active": true
+}
