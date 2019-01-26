@@ -6,12 +6,12 @@
 
 namespace Truonglv\AdHelper;
 
-use Truonglv\AdHelper\DevHelper\SetupTrait;
+use XF\Db\Schema\Alter;
 use XF\AddOn\AbstractSetup;
 use XF\AddOn\StepRunnerInstallTrait;
 use XF\AddOn\StepRunnerUpgradeTrait;
 use XF\AddOn\StepRunnerUninstallTrait;
-use XF\Db\Schema\Alter;
+use Truonglv\AdHelper\DevHelper\SetupTrait;
 
 class Setup extends AbstractSetup
 {

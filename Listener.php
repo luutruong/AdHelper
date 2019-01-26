@@ -3,6 +3,7 @@
  * @license
  * Copyright 2019 TruongLuu. All Rights Reserved.
  */
+
 namespace Truonglv\AdHelper;
 
 class Listener
