@@ -1,0 +1,9 @@
+{
+    "template": "extra.less",
+    "description": "Include ad responsive helpers",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "#\\A.*\\z#s",
+    "replace": "$0\n{{ include(\"tah_ad_responsive.less\") }}"
+}
